@@ -15,10 +15,10 @@ def turtle_traits(turtles)
   #    trait
       
   turtles.map do |turtle|
-    if !turtle[:traits].class == Array
-     [turtle[:traits]]
+    if turtle[:traits].class == Array
+     turtle[:traits]
     else
-      turtle[:traits]
+      turtle[:traits] = [turtle[:traits]]
     end
   end
 end
