@@ -15,6 +15,6 @@ class GasStation
 
 end
 
-petrol_petes = GasStation.new("Petrol Pete's", 50)
-seashore_shell = GasStation.new("The Seashore Shell", 40)
-dinobones = GasStation.new("Dino Bones Gas and Grill", 60)
+p petrol_petes = GasStation.new("Petrol Pete's", 50)
+p seashore_shell = GasStation.new("The Seashore Shell", 40)
+p dinobones = GasStation.new("Dino Bones Gas and Grill", 60)
