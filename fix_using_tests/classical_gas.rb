@@ -1,4 +1,5 @@
 require 'pry'
+
 class GasStation
 
   # Remember which methods this "magic command", "attr_reader" creates.
