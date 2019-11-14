@@ -14,10 +14,11 @@ def turtle_traits(turtles)
   #  turtle[:traits].each do |trait|
   #    trait
       
-  turtles_traits = []
   turtles.map do |turtle|
     if !turtle[:traits].class == Array
      [turtle[:traits]]
+    else
+      turtle[:traits]
     end
   end
 end
